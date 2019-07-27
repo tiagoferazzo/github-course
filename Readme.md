@@ -4,13 +4,14 @@ Arquivo da aula de Git e GitHub para iniciantes
 Tiaguera Ferazzo aprendendo git testezera
 
 Getting & Creating Projects:
-| Comando  | Descrição |
+
+
 | git init | Initialize a local Git repository |
 | git clone ssh://git@github.com/[username]/[repository-name].git | Create a local copy of a remote repository |
 
 Basic Snapshotting:
 
-| Comando | Descrição |
+
 | git status | Check status |
 | git add | Add a file to the staging area |
 | git add -A | Add all new and changed files to the staging area |
@@ -19,7 +20,6 @@ Basic Snapshotting:
 
 Branching & Merging:
 
-| Comando | Descrição |
 | git branch | List branches (the asterisk denotes the current branch) |
 | git branch -a | List all branches (local and remote) |
 | git branch [branch name] | Create a new branch |
@@ -37,7 +37,6 @@ Branching & Merging:
 
 Sharing & Updating Projects:
 
-| Comando | Descrição |
 | git push origin [branch name] | Push a branch to your remote repository |
 | git push -u origin [branch name] | Push changes to remote repository (and remember the branch) |
 | git push | Push changes to remote repository (remembered branch) |
@@ -49,7 +48,6 @@ Sharing & Updating Projects:
 
 Inspection & Comparison:
 
-| Comando | Descrição |
 | git log | View changes |
 | git log --summary | View changes (detailed) |
 |git diff [source branch][target branch] | Preview changes before merging |
